@@ -38,4 +38,4 @@ app.use(cookieParser())
 app.use(routes)
 
 
-app.listen(PORT, () => console.log(`listening to port! ${PORT}`))
+app.listen(PORT||80, () => console.log(`listening to port! ${PORT}`))

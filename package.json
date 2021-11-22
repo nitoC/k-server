@@ -5,7 +5,8 @@
   "author": "nitoc",
   "license": "MIT",
   "scripts": {
-    "serve": "nodemon index.js"
+    "serve": "nodemon index.js",
+    "start": "node index.js"
   },
   "dependencies": {
     "@admin-bro/express": "^3.1.0",
